@@ -18,13 +18,13 @@ function getISTContext() {
 async function chat(message, context = {}) {
   const apiKey = process.env.GROQ_API_KEY;
   if (!apiKey) {
-    console.log('GROK_ERROR: No API key configured');
+    console.log('GROQ_ERROR: No API key configured');
     return { success: false, error: 'AI unavailable' };
   }
   
   const timeout = parseInt(process.env.AI_REQUEST_TIMEOUT_MS) || 6000;
   
-  const systemPrompt = `You are Grok, a concise professional assistant.
+  const systemPrompt = `You are Groq AI, a concise professional assistant.
 For greetings like "hello" or "hi", respond with a friendly greeting and offer to help.
 For date/time questions, use the current India date and time (IST) provided below as the only correct time reference.
 Do not infer dates or years independently.
@@ -43,7 +43,7 @@ ${getISTContext()}`;
   };
 
   try {
-    console.log(`GROK_CALL timeout=${timeout}ms`);
+    console.log(`GROQ_CALL timeout=${timeout}ms`);
     
     const response = await axios.post(
       'https://api.groq.com/openai/v1/chat/completions',
@@ -59,15 +59,15 @@ ${getISTContext()}`;
     
     const reply = response.data?.choices?.[0]?.message?.content?.trim();
     if (!reply) {
-      console.log('GROK_ERROR: Empty response');
+      console.log('GROQ_ERROR: Empty response');
       return { success: false, error: 'AI unavailable' };
     }
     
-    console.log(`GROK_SUCCESS: ${reply.substring(0, 50)}...`);
+    console.log(`GROQ_SUCCESS: ${reply.substring(0, 50)}...`);
     return { success: true, reply };
     
   } catch (error) {
-    console.log(`GROK_ERROR: ${error.message}`);
+    console.log(`GROQ_ERROR: ${error.message}`);
     return { success: false, error: 'AI unavailable' };
   }
 }
