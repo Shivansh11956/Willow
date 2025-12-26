@@ -20,43 +20,53 @@ A modern realtime chat application built with MERN stack featuring advanced AI-p
 ## Willow Walkthrough
 
 ### Welcome Landing Page
-![Landing Page](backend/public/screenshots/s1.png)
+<img src="backend/public/screenshots/S1.png" alt="Landing Page" style="border: 2px solid #000; border-radius: 8px;">
+
 *Clean and modern landing page showcasing Willow's core features and benefits*
 
 ### Account Registration
-![Create Account](backend/public/screenshots/s2.png)
+<img src="backend/public/screenshots/S2.png" alt="Create Account" style="border: 2px solid #000; border-radius: 8px;">
+
 *Streamlined signup process with email validation and secure authentication*
 
 ### Email OTP Verification
-![OTP Verification](backend/public/screenshots/s3.png)
+<img src="backend/public/screenshots/S3.png" alt="OTP Verification" style="border: 2px solid #000; border-radius: 8px;">
+
 *Two-factor authentication ensuring account security with email-based OTP*
 
 ### Profile Customization
-![Profile Setup](backend/public/screenshots/s4.png)
+<img src="backend/public/screenshots/S4.png" alt="Profile Setup" style="border: 2px solid #000; border-radius: 8px;">
+
 *Personalize your profile with custom avatars and personal information*
 
 ### Friend Discovery
-![Discover Friends](backend/public/screenshots/s5.png)
+<img src="backend/public/screenshots/S5.png" alt="Discover Friends" style="border: 2px solid #000; border-radius: 8px;">
+
 *Find and connect with users through intelligent search and friend requests*
 
 ### AI-Powered Content Moderation
-![Chat Moderation](backend/public/screenshots/s6.png)
+<img src="backend/public/screenshots/S6.png" alt="Chat Moderation" style="border: 2px solid #000; border-radius: 8px;">
+
 *Real-time message filtering with AI suggestions for safer communication*
 
 ### Rich Media Messaging
-![Chat Interface](backend/public/screenshots/s7.png)
+<img src="backend/public/screenshots/S7.png" alt="Chat Interface" style="border: 2px solid #000; border-radius: 8px;">
+
 *Support for text messages, images, and multimedia content sharing*
 
 ### AI Chat Assistant
-![AI Assistance](backend/public/screenshots/s8.png)
+<img src="backend/public/screenshots/S8.png" alt="AI Assistance" style="border: 2px solid #000; border-radius: 8px;">
+
 *Integrated AI assistant for enhanced user experience and support*
 
 ### Internationalization & UI Customization
-![Language Options](backend/public/screenshots/s9.png)
+<img src="backend/public/screenshots/S9.png" alt="Language Options" style="border: 2px solid #000; border-radius: 8px;">
+
 *Dynamic UI adaptation featuring multi-language support and 30+ customizable themes*
 
 ### Hindi Language Interface
-![Hindi UI](backend/public/screenshots/s10.png)
+<img src="backend/public/screenshots/S10.png" alt="Hindi UI" style="border: 2px solid #000; border-radius: 8px;">
+
 *Complete Hindi language support with native UI elements and cultural localization*
 
 ## Architecture Overview
