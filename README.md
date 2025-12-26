@@ -21,61 +21,71 @@ A modern realtime chat application built with MERN stack featuring advanced AI-p
 
 ### Welcome Landing Page
 <img src="backend/public/screenshots/S1.png"
-     style="border-radius:10px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+     alt="Landing Page"
+     style="border:2px solid #d0d7de; border-radius:10px; margin:12px 0;" />
 
 *Clean and modern landing page showcasing Willow's core features and benefits*
 
 ### Account Registration
 <img src="backend/public/screenshots/S2.png"
-     style="border-radius:10px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+     alt="Account Registration"
+     style="border:2px solid #d0d7de; border-radius:10px; margin:12px 0;" />
 
 *Streamlined signup process with email validation and secure authentication*
 
 ### Email OTP Verification
 <img src="backend/public/screenshots/S3.png"
-     style="border-radius:10px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+     alt="OTP Verification"
+     style="border:2px solid #d0d7de; border-radius:10px; margin:12px 0;" />
 
 *Two-factor authentication ensuring account security with email-based OTP*
 
 ### Profile Customization
 <img src="backend/public/screenshots/S4.png"
-     style="border-radius:10px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+     alt="Profile Setup"
+     style="border:2px solid #d0d7de; border-radius:10px; margin:12px 0;" />
 
 *Personalize your profile with custom avatars and personal information*
 
 ### Friend Discovery
 <img src="backend/public/screenshots/S5.png"
-     style="border-radius:10px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+     alt="Friend Discovery"
+     style="border:2px solid #d0d7de; border-radius:10px; margin:12px 0;" />
 
 *Find and connect with users through intelligent search and friend requests*
 
 ### AI-Powered Content Moderation
 <img src="backend/public/screenshots/S6.png"
-     style="border-radius:10px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+     alt="AI Content Moderation"
+     style="border:2px solid #d0d7de; border-radius:10px; margin:12px 0;" />
 
 *Real-time message filtering with AI suggestions for safer communication*
 
 ### Rich Media Messaging
 <img src="backend/public/screenshots/S7.png"
-     style="border-radius:10px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+     alt="Rich Media Messaging"
+     style="border:2px solid #d0d7de; border-radius:10px; margin:12px 0;" />
 
 *Support for text messages, images, and multimedia content sharing*
 
 ### AI Chat Assistant
 <img src="backend/public/screenshots/S8.png"
-     style="border-radius:10px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+     alt="AI Chat Assistant"
+     style="border:2px solid #d0d7de; border-radius:10px; margin:12px 0;" />
 
 *Integrated AI assistant for enhanced user experience and support*
 
 ### Internationalization & UI Customization
 <img src="backend/public/screenshots/S9.png"
-     style="border-radius:10px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+     alt="UI Customization"
+     style="border:2px solid #d0d7de; border-radius:10px; margin:12px 0;" />
 
 *Dynamic UI adaptation featuring multi-language support and 30+ customizable themes*
 
 ### Hindi Language Interface
 <img src="backend/public/screenshots/S10.png"
-     style="border-radius:10px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+     alt="Hindi Interface"
+     style="border:2px solid #d0d7de; border-radius:10px; margin:12px 0;" />
 
 *Complete Hindi language support with native UI elements and cultural localization*
 
