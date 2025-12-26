@@ -207,9 +207,10 @@ GROK_API_KEY=gsk_your_grok_key
 GROQ_API_KEY=gsk_your_groq_key
 GROQ_API_URL=https://api.groq.com/openai/v1/chat/completions
 
-# Email Authentication (Nodemailer)
-EMAIL_USER=your_email@gmail.com
-EMAIL_PASS=your_gmail_app_password
+# Email Authentication (Brevo)
+BREVO_API_KEY=your_brevo_api_key
+BREVO_SENDER_EMAIL=your_verified_sender@domain.com
+BREVO_SENDER_NAME=Willow
 
 NODE_ENV=production
 ```
@@ -231,10 +232,11 @@ NODE_ENV=production
 2. Create API key for Grok integration
 3. Set as GROK_API_KEY
 
-**Email Configuration**
-1. Use Gmail with App Password authentication
-2. EMAIL_USER: Gmail address
-3. EMAIL_PASS: Gmail App Password (not regular password)
+**Brevo Email Configuration**
+1. Create account at [Brevo](https://www.brevo.com)
+2. Generate API key from account settings
+3. Verify sender email domain
+4. Set BREVO_API_KEY, BREVO_SENDER_EMAIL, and BREVO_SENDER_NAME
 
 ## Installation & Setup
 
@@ -348,7 +350,8 @@ Visit `http://localhost:5001/health` to verify:
 - Monitor connection pool status
 
 **Email Delivery**
-- Verify Gmail App Password setup
+- Verify Brevo API key is valid
 - Check spam folders for OTP emails
-- Ensure EMAIL_USER and EMAIL_PASS are correct
+- Ensure sender email is verified in Brevo
+- Monitor Brevo dashboard for delivery status
 
