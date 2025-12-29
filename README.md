@@ -2,7 +2,7 @@
 
 A modern realtime chat application built with MERN stack featuring advanced AI-powered content moderation, friend request system, and comprehensive user management.
 
-**Live Demo**: [Try Willow Now](https://willow-production-9184.up.railway.app/)
+**Live Demo**: [Try Willow Now](https://willow-3osi.onrender.com/)
 
 ## Features
 
