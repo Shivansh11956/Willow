@@ -34,7 +34,7 @@ const LandingPage = () => {
           <Link to="/signup" className="bg-green-600 text-white px-8 py-3 rounded-full hover:bg-green-700 flex items-center justify-center min-w-[140px]">
             Try Now →
           </Link>
-          <a href="https://youtube.com/playlist?list=PLk4TQF18bEEzuyojuSuXh2sf9V-IzQTwv&si=hpo4EvZXyORml1AT" target="_blank" rel="noopener noreferrer" className="bg-green-600 text-white px-8 py-3 rounded-full hover:bg-green-700 min-w-[140px] text-center">
+          <a href="https://youtu.be/zHzSBQuv7fI" target="_blank" rel="noopener noreferrer" className="bg-green-600 text-white px-8 py-3 rounded-full hover:bg-green-700 min-w-[140px] text-center">
             Watch Demo
           </a>
         </div>

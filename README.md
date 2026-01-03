@@ -4,6 +4,8 @@ A modern realtime chat application built with MERN stack featuring advanced AI-p
 
 **Live Demo**: [Try Willow Now](https://willow-production-9184.up.railway.app/)
 
+**Video Demo**: [Watch Now](https://youtu.be/zHzSBQuv7fI)
+
 ## Features
 
 - **Tech Stack**: MERN + Socket.io + TailwindCSS + DaisyUI
