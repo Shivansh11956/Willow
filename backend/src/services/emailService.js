@@ -25,7 +25,7 @@ const sendOTPEmail = async (email, otp) => {
     await transporter.verify();
     console.log("SMTP connection verified");
     await transporter.sendMail({
-      from: process.env.SMTP_FROM || process.env.SMTP_USER,
+      from: `"Willow API" <${process.env.SMTP_FROM}>` || process.env.SMTP_USER,
       to: email,
       subject: 'Your Login OTP - Content Moderation API',
       html: `
