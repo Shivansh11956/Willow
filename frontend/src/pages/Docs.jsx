@@ -2,7 +2,7 @@ import React from 'react';
 import { Code, ExternalLink } from 'lucide-react';
 
 export default function Docs() {
-  const codeExample = `curl -X POST http://localhost:5001/api/v1/moderate \\
+  const codeExample = `curl -X POST https://willow-api-wk42.onrender.com/api/v1/moderate \\
   -H "Authorization: Bearer YOUR_API_KEY" \\
   -H "Content-Type: application/json" \\
   -d '{
@@ -32,10 +32,10 @@ export default function Docs() {
           </p>
           <div className="bg-blue-50 p-4 rounded-lg">
             <p className="text-blue-800">
-              <strong>Base URL:</strong> http://localhost:5001
+              <strong>Base URL:</strong> https://willow-api-wk42.onrender.com
             </p>
             <p className="text-blue-800 mt-2">
-              <strong>Production URL:</strong> https://your-domain.com
+              <strong>Production URL:</strong> https://willow-api-wk42.onrender.com
             </p>
           </div>
         </section>
@@ -240,7 +240,7 @@ export default function Docs() {
                 <pre>{`const axios = require('axios');
 
 const response = await axios.post(
-  'http://localhost:5001/api/v1/moderate',
+  'https://willow-api-wk42.onrender.com/api/v1/moderate',
   { text: 'Your message here' },
   { headers: { Authorization: 'Bearer YOUR_API_KEY' } }
 );
@@ -254,7 +254,7 @@ console.log(response.data);`}</pre>
                 <pre>{`import requests
 
 response = requests.post(
-    'http://localhost:5001/api/v1/moderate',
+    'https://willow-api-wk42.onrender.com/api/v1/moderate',
     json={'text': 'Your message here'},
     headers={'Authorization': 'Bearer YOUR_API_KEY'}
 )
