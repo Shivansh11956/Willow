@@ -1,11 +1,6 @@
 # Willow API - Content Moderation Platform
 
-> **AI-powered content moderation API with multi-provider fallback system and comprehensive web dashboard**
-
-[![Node.js](https://img.shields.io/badge/Node.js-18+-green.svg)](https://nodejs.org/)
-[![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-green.svg)](https://www.mongodb.com/)
-[![React](https://img.shields.io/badge/React-18+-blue.svg)](https://reactjs.org/)
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+### AI-powered content moderation API with multi-provider fallback system and comprehensive web dashboard
 
 ## Features
 
@@ -248,15 +243,6 @@ MONGODB_URI=your_production_mongodb_uri
 JWT_SECRET=your_secure_jwt_secret
 # ... other production keys
 ```
-
-## Rate Limits
-
-| Provider | Limit | Rotation |
-|----------|-------|----------|
-| **Gemini AI** | 20 requests/key/day | Automatic |
-| **Groq API** | No built-in limits | N/A |
-| **API Keys** | Configurable per key | Manual |
-
 ## Development
 
 ### Project Structure
@@ -314,14 +300,6 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 - **Email**: support@willowapi.com
 - **Issues**: [GitHub Issues](https://github.com/yourusername/willow-api/issues)
 - **Discussions**: [GitHub Discussions](https://github.com/yourusername/willow-api/discussions)
-
-## Acknowledgments
-
-- **Google Gemini AI** for advanced content moderation
-- **Groq** for high-speed AI inference
-- **MongoDB Atlas** for reliable database hosting
-- **Brevo** for email delivery services
-- **Railway/Render** for seamless deployment
 
 ---
 
